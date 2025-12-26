@@ -4,32 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhay | HTML Journey </title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
     
 
- 
-   <h1>Hii, I am Abhayy </h1>
-  
+   <nav>
+       <h1> Abhayy </h1>
+       <div class="partlink">
+        <a href="#">About us</a>
+         <a href="#">Projects</a>
+         <a href="#">Connect</a>          
+       </div>
+   </nav>
+
   
    <hr>
-   
+    <section><div class="hero-text1">
     <h2>About Me</h2>
-    <div id="image">   
-    <img src="Abhay.jpg" alt="Image not found" width="500">
+    <div class="viddesign">
+        <div class="play"> <i class="ri-play-large-fill"></i></div>
+    </div>
    
-    <div id="info">
-   <p><strong>I am a BCA 2nd year student currently learning software development.
+    <div class="viddesign2"></div>
+
+    <div class="circle">
+        <video src="#"></video>
+    </div>
+    </div>
+    <div class="img-box">   
+    <img src="Abhay.jpg" alt="Image not found" width="500">
+    </div>
+   <p id="text1"><strong>I am a BCA 2nd year student currently learning software development.
     </strong></p>
+    
+     <div class="hero-text2">
      <h4>Skills Learned</h4>
     <ul>
         <li>JAVA CORE</li>
         <li>Java Database Connectivity(JDBC)</li>
         <li>MySQL Basics</li>
     </div>
-    </div>
+     </section>
     <h2 id="connect">Connect with me</h2>
     <br>
     <p id="link"> 
@@ -39,28 +60,36 @@
     </p>
     
     <h3 class="a">Why i am learning HTML</h3>
+    <br>
     <p class="b"><strong>To understand how real-world applications work from the user interface
     to the database and to strengthen my problem-solving skills.</strong></p>
     <center>
-    <h3 class="a">Form Practice</h3>
-    <form class="b">
+    <h3 class="head">Form Practice</h3>
+    <form >
         <input type="text"class="c" placeholder="Enter Name"><br>
+        <br>
+        <br>
         <select class="c" >
             <option class="c" value="+91">+91 (India)</option>
             <option class="c"  value="+1"+1> +1 (USA)</option>
             <option class="c"  value="+44"> +44 (UK)</option>
         </select>
         <input class="c"  type="tel" placeholder="Enter Mobile No."><br>
-        <h3 class="a">Gender: </h3>
-        <input class="c"  type="radio" name="Gender">Male 
-        <input class="c"  type="radio" name="Gender">Female <br>
-        <h3 class="a">Skiils You Learned: </h3>
-        <input class="c" type="checkbox" name="Skills You Learned"> JAVA 
-        <input class="c"   type="checkbox"name="Skills You Learned"> PYTHON 
-        <input class="c" type="checkbox" name="Skills You Learned"> C++ 
-        <input class="c" type="checkbox" name="Skills You Learned"> Others <br>
-        <input class="c"  type="text" placeholder="Enter Skill you learned"><br>
+        <!-- <h3 class="a">Gender: </h3>
+        <input class="f"  type="radio" name="Gender">Male 
+        <input class="f"  type="radio" name="Gender">Female <br> -->
         <br>
+        <br>
+        <h3 class="head">Skills You Learned: </h3>
+        <div  class="check1">
+        <input class="check" type="checkbox" name="Skills You Learned"> JAVA 
+        <input class="check" type="checkbox"name="Skills You Learned"> PYTHON 
+        <input class="check" type="checkbox" name="Skills You Learned"> C++ 
+        <input class="check" type="checkbox" name="Skills You Learned"> Others 
+        <br>
+       <input class="checkother"  type="text" placeholder="Enter Skill you learned"><br>
+        <br>
+        </div>
     
         <button class="d" type="submit">Submit</button></button>
           

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: poppins;
 }
 html, body{
     height: 100%;
@@ -16,81 +16,177 @@ main{
     background-color: #d5ff40 ;
 
 }
-h1{
+nav{
      margin: 50x ; 
-     padding: 50px 60px ;
-   
-    font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+     padding: 60px 100px ;
+     font-size: 70px;
+     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav .partlink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    padding-right: 20px;
 }
 
-h2{
-    padding-left: 100px;
-    font-size: 100px ;
-    font-weight: 700;
-
+a{
+    font-size: 50px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400px;
 }
-#image{
-    margin: 100x;
-    padding : 100px;
-    height:  500px;
+section{
+    padding: 60px 100px;
+}
+section .hero-text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly; 
+}
+
+.hero-text1{
+
+     font-size: 120px;
+    color: crimson;
+    /* background-color: black; */
+    margin: 40px 0 10px 0;
+    padding:  10px 20px;
+    
+}
+.hero-text1 .viddesign {
+     height: 300px;
+     width: 1100px;
+     background-color: #eef2f7;
+     border-radius: 120px;
+     display: flex;
+     align-items: center;
+     
+     margin-left: auto;
+     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+     background-image: url(https://images.unsplash.com/photo-1750969185331-e03829f72c7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc3fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D);
+     
+}
+
+
+.viddesign .play {
+    height: 100%;
+    width: 280px;
+    background-color: black;
+    border-radius: 50%;
+    border: 14px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.play i{
+    font-size: 50px;
+    color: #d5ff40;
+   
+}
+
+
+.img-box {
+    height:  250px;
     width: 500px;
     display: flex;
     align-items: center;
-    background-color:#d5ff40 ;
-    justify-content: flex-start;
     justify-content: space-between;
+    background-color: #d5ff40;
+    gap: 40px;
+    border-radius: 20px;
+   overflow: hidden;
+   background-color: #e6e6e6;
     
     
 }
-#info{
-    height: 400px;
-    width: 400px;
-    font-size: 32px;
-    position: absolute;
-    right : 700px;
-    top: 450px ;
+#text1{
+    font-size: 60px;
+    text-align: right;
+    padding-right: 200px;
+       
+}
+section .hero-text2{
+    padding: 40px 10px;
+    font-size: 130px;
+    font-weight: 90;
 }
 
+
 #connect {
-    font-size: 70px;
+    font-size: 120px;
     color: crimson;
     background-color: black;
 }
 #link {
-    font-size: 60px;
+    font-size: 120px;
     padding-left: 60px;
-
     color: crimson;
+
+}
+#link a{
+    font-size: 120px;
 
 }
 .a{
     padding-top: 20px;
-    font-size: 60px;
+    font-size: 100px;
     padding-left: 60px;
+    background-color: #000;
+    color: crimson;
 
 }
 .b{
-    font-size: 45px;
+    font-size: 85px;
     padding-left: 60px;
     padding-top: 10px;
 }
+.head{
+    color: #000;
+    font-size: 120px;
+}
 
 .c{
-    font-size:  40px;
+    font-size:  100px;
     padding: auto;
     color: black;
 }
+.check1{
+   font-size: 80px;
+   line-height: 2;
+}
+.check {
+    transform: scale(3.5);
+    margin-right: 10px;
+   accent-color: #000;
+}
+.checkother {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 80px;
+    width: 900px;
+}
 .d{
-    font-size: 50px;
+    font-size: 90px;
+    font-weight: 500px;
+    width: 500px;
     padding: 20px 20px ;
     border-radius: 10px;
     background-color: aqua;
     color: black;
 }
 button:hover{
-    font-size: 50px;
+    font-size: 90px;
+    width: 500px;
+    font-weight: 500px;
+    border-radius: 20px;
     background-color: black;
     color: beige;
 
@@ -102,7 +198,7 @@ button:hover{
      padding: 20px;
 }
 .vid1{
-    width: 800px;
-    border-radius: 10px;
+    width: 1500px;
+    border-radius: 30px;
 
 }
