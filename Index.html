@@ -17,9 +17,9 @@
    <nav>
        <h1> Abhayy </h1>
        <div class="partlink">
-        <a href="#">About us</a>
-         <a href="#">Projects</a>
-         <a href="#">Connect</a>          
+        <a href="page2.html" target="_blank">About </a>
+         <a href="page3.html" target="_blank">Projects</a>
+         <a href="page4.html" target="_blank">Connect</a>          
        </div>
    </nav>
 
@@ -49,15 +49,23 @@
         <li>JAVA CORE</li>
         <li>Java Database Connectivity(JDBC)</li>
         <li>MySQL Basics</li>
+        <li>HTML, CSS, JavaScript</li>
+        </ul>
     </div>
      </section>
     <h2 id="connect">Connect with me</h2>
     <br>
-    <p id="link"> 
-            Click Here For-<a href="https://www.instagram.com/codingstepswithabhayy?igsh=bzhyZXlrNnFjcGU3&utm_source=qr">INSTAGRAM</a><br>
-    Click Here For-<a href="https://x.com/abhayy2903?s=21">Twitter</a><br>
-    Click Here For-<a href="https://github.com/abhayyy29">GitHub</a><br>
-    </p>
+     <span class="cnct">
+        <a href="https://www.instagram.com/codingstepswithabhayy?igsh=bzhyZXlrNnFjcGU3&utm_source=qr">
+      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt="Not clicked">
+      </a>
+      <a href="https://x.com/abhayy2903?s=21">
+      <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJO2SeTQHtzL024EkApdOOoQ1QlTxBsqKCSQ&s" alt="NOT CLICKED">
+      </a>
+      <a href="https://github.com/abhayyy29">
+      <img class="logo" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="not found">
+      </a>   
+    </span>
     
     <h3 class="a">Why i am learning HTML</h3>
     <br>
@@ -65,8 +73,8 @@
     to the database and to strengthen my problem-solving skills.</strong></p>
     <center>
     <h3 class="head">Form Practice</h3>
-    <form >
-        <input type="text"class="c" placeholder="Enter Name"><br>
+    <form onsubmit="return ValidateForm()">
+        <input type="text"class="name1" placeholder="Enter Name"><br>
         <br>
         <br>
         <select class="c" >
@@ -75,9 +83,11 @@
             <option class="c"  value="+44"> +44 (UK)</option>
         </select>
         <input class="c"  type="tel" placeholder="Enter Mobile No."><br>
-        <!-- <h3 class="a">Gender: </h3>
+        <h3 class="a">Gender: </h3>
+        <div class="radio1">
         <input class="f"  type="radio" name="Gender">Male 
-        <input class="f"  type="radio" name="Gender">Female <br> -->
+        <input class="f"  type="radio" name="Gender">Female <br>
+        </div>
         <br>
         <br>
         <h3 class="head">Skills You Learned: </h3>
@@ -91,18 +101,24 @@
         <br>
         </div>
     
-        <button class="d" type="submit">Submit</button></button>
+        <button class="button" type="submit">Submit</button></button>
           
     </form> <br>
     </center>
-     <div class="vid">
+
+    <div class="image2">
+     <div class="arrow"><i class="ri-arrow-right-up-line"></i></div>
+    </div>
+    
+     <!-- <div class="vid">
              <video class="vid1" width="400" autoplay loop muted controls>
         <source src="./Video.MP4">
         Video Not Supported
      </video>
-     </div>
+     </div> -->
 
    
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
